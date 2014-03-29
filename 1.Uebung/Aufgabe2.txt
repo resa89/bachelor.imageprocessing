@@ -1,0 +1,36 @@
+%   Übung 1, Di Martino, Stefano, 286021,
+%   Semester 7, stemarti@htwg-konstanz.de, 1. April 2014
+%
+%   Übung 1, Willhelm, Andreas, 286297,
+%   Semester 7, anwilhel@htwg-konstanz.de, 1. April 2014
+
+
+Bild 1 Analyse:
+
+>> bild=imread('bild1.jpg');
+>> whos bild
+
+Name         Size                 Bytes  Class    Attributes
+
+  bild      2672x4008            10709376  uint8
+
+Bild 1 besteht nur aus einem 8-Bit Kanal (Grauwertbild).
+Erkennt man daran, dass es nur zwei Dimensionen und aus uint8 besteht.
+
+Bild 2 Analyse:
+
+>> bild=imread('bild2.jpg');
+>> whos bild
+  Name        Size                Bytes  Class    Attributes
+
+  bild      592x470x3            834720  uint8 
+
+Enthält drei Dimensionen, muss also folglich aus den drei Kanälen
+Rot, Grün, Blau bestehen. Jeder Kanal hat 8 Bit.
+
+Für Bild 3 gilt im Prinzip dasselbe wie für Bild 2.
+>> bild=imread('bild3.jpg');
+>> whos bild
+  Name        Size                Bytes  Class    Attributes
+
+  bild      578x555x3            962370  uint8   
