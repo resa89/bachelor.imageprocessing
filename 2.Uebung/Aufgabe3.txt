@@ -1,0 +1,32 @@
+﻿% -------------------------------------------------------------------------
+%   Uebung 2, Di Martino, Stefano, 286021,
+%   Semester 7, stemarti@htwg-konstanz.de, 8. April 2014
+%
+%   Uebung 2, Willhelm, Andreas, 286297,
+%   Semester, anwilhel@htwg-konstanz.de, 8. April 2014
+%
+%   Uebung 2, Kocher, Theresa,
+%
+% -------------------------------------------------------------------------
+
+
+Aufgabe 3:
+Defnieren Sie die folgenden Begriffe:
+1. Histogramm
+Ein Histogramm ist eine graphische Dartstellung einer Häufigkeitsverteilung.
+Speziell bei Bildern werden Histogramme benutzt, um die Häufigkeiten einzelner
+Intensitätswerte (Helligkeitswerte) im Bild darzustellen.
+Dabei kann man wichtige Eigenschaften zeigen, wie zum Beispiel den Kontrast und die Dynamik.
+
+2. Punktoperation
+Punktoperationen sind Operationen auf Bilder, welche nur die einzelnene Pixel betreffen
+und dadurch die Größe und Struktur nicht beeinflusst wird. Denn jeder neue Pixelwert hängt 
+ausschliesslich vom alten Pixelwert ab und ist somit unabhängig von z.B. benachbarten Pixelwerten.
+Die homogene Punktoperation ist zudem von den Bildkoordinaten unabhängig.
+Punktoperationen werden oft über die Lookup-Tables realisiert.
+
+3. "Lookup Tabelle" (lookup table - LUT)
+Lookup-Tabellen bzw auch Umsetzungstabellen genannt, werden verwendet um für bestimmte Operationen
+vorab berechnete Informationen zur Laufzeit des Programms zu benutzen.
+Der Sinn ist hierbei aufwändige Berechnungen oder eine hohen Speicherverbrauch zu minimieren und
+dadurch an Geschwindigkeit zu gewinnen.
