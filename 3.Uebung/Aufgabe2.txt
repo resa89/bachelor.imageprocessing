@@ -1,0 +1,23 @@
+% -------------------------------------------------------------------------
+%   Uebung 3, Di Martino, Stefano, 286021,
+%   Semester 7, stemarti@htwg-konstanz.de, 15. April 2014
+%
+%   Uebung 3, Willhelm, Andreas, 286297,
+%   Semester, anwilhel@htwg-konstanz.de, 15. April 2014
+%
+%   Uebung 3, Kocher, Theresa,
+%
+% -------------------------------------------------------------------------
+Aufgabe 2:
+- Aufgabe 2.1: Was ist ein Filter?
+Durch einen Filter kann man ein Bild bearbeiten, verfremden oder verändern.
+Bei einem Filter wird ein Pixel aus den umliegenden Nachbarschaftspixel neu
+berechnet. Dadurch kann man z.B. ein Bild glätten.
+
+- Aufgabe 2.2: Was ist der Unterschied zwischen Punktoperationen und Filteroperationen?
+Bei der Punktoperation wird auf einen genau Pixel eine Operation angewandt.
+Dabei werden umliegende Pixel nicht verändert oder miteinbezogen.
+Dadurch kann man z.B. die Helligkeit eines Bildes anheben.
+Bei der Filteroperation wird ein Pixelwert mit Hilfe der umliegende
+Nachbarschaftspixel neu berechnet. Dadurch kann man z.B. ein Bild glätten
+oder auch eine Histogrammanpassung vornehmen.
