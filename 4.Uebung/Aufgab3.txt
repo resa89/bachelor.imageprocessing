@@ -1,0 +1,15 @@
+3.1 Nennen Sie die Arten und Eigenschaften von linearen Filtern.
+
+Pixelwerte werden innerhalb der Filterregion durch eine gewichtete Summation verknüpft.
+Beispiel: lokale Durchschnittsbildung, bei der alle neun Pixel in der 3 × 3-Filterregion mit
+gleichen Gewichten (1/9) summiert werden. Mit dem gleichen Mechanismus kann, nur durch Anderung
+der einzelnen Gewichte, eine Vielzahlverschiedener Filter mit unterschiedlichstem Verhalten definiert werden.
+
+3.2 Was ist der Unterschied zwischen linearen und nichtlinearen Filtern?
+
+Nichtlineare Filter haben nicht die Linearitätseigenschaft der Faltung. Wird ein Bild bspw. mit einer skalaren
+Konstante a multipliziert, dann multipliziert sich auch das Faltungsergebnis mit diesem Faktor.
+Man kann die Linearitätsgesetze dazu verwenden, den linearen Filter in mehrere eindimensionale Teilfilter aufzuteilen
+und diese einzeln mit dem Bild zu multiplizieren. Dadurch steigen die Operationen linear und nicht exponentiell.
+Nachteil von linearen Filtern ist, dass sie auch beabsichtigte Kanten, Punkte und Linien glätten. Nichtlineare Filter
+sind dafür besser geeignet.
