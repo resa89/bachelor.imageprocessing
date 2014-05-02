@@ -1,0 +1,19 @@
+% -------------------------------------------------------------------------
+%   Uebung 6, Di Martino, Stefano, 286021,
+%   Semester 7, stemarti@htwg-konstanz.de, 6. Mai 2014
+%
+%   Uebung 6, Willhelm, Andreas, 286297,
+%   Semester 7, anwilhel@htwg-konstanz.de, 6. Mai 2014
+%
+%   Uebung 6, Kocher, Theresa, 291235
+%
+% -------------------------------------------------------------------------
+
+Aufgabe2:
+Welche Schwellwerte sind sinnvoll?
+Schwellwerte nahe am Maximum sind am sinnvollsten, da man dadurch nur  noch
+die wesentlichen Punkte angezeigt bekommt und den Rest rausfiltert.
+
+
+Wie können die Kanten im urprünglichen Bild ermittelt werden?
+Die Kanten können sehr gut mit dem Canny-Kanten-Detektor ermittelt werden. 
