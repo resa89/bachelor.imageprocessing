@@ -1,0 +1,15 @@
+9. Übung: Fast Fourier Transformation
+
+Aufgabe 2
+
+2.1
+2 Peaks, weil Fourierspektrum die Verteilung der Werte der Kreisfrequenzen im Fourierintegral anzeigt
+bei 100Hz und 900Hz, weil Verschiebung des Fourierspektrums (evtl?)
+
+2.2
+500:
+nur noch ein Peak in der Amplitude
+Imaginär Spektrum gestaucht
+
+um 500:
+Signal: verengt sich nach links/rechts
